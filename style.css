@@ -1,0 +1,43 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 800px;
+  margin: auto;
+}
+
+.btnCircleCont {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.screen {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.btn {
+  background-color: gold;
+  border-radius: 10px;
+  padding: 1rem;
+  flex: 1;
+  font-size: larger;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
