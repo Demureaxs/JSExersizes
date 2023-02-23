@@ -340,3 +340,16 @@ console.log(usersById);
 function checkForFactor(base, factor) {
   return base % factor === 0;
 }
+
+// sum digits pow
+function sumDigPow(a, b) {
+  let arr = [];
+  for (let i = a; i <= b; i++) {
+    let sum = 0;
+    for (let j = 0; j <= String(i).length; j++) {
+      sum += Math.pow(parseInt(String(i)[j]), j + 1);
+      if (sum == i) arr.push(i);
+    }
+  }
+  return arr;
+}
