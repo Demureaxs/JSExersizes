@@ -335,3 +335,8 @@ function groupById(arr) {
 let usersById = groupById(users);
 
 console.log(usersById);
+
+// check if number is a factor
+function checkForFactor(base, factor) {
+  return base % factor === 0;
+}
